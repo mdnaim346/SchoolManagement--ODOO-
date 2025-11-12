@@ -1,3 +1,9 @@
+
+# 🏫 School Management App
+
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![License](https://img.shields.io/badge/license-LGPL--3-blue)
+
 # 🏫 School Management App (Odoo 17)
 
 A complete **School Management System** built with **Odoo 17**, designed to help manage students, teachers, classes, subjects, attendance, and exams — all in one platform.
