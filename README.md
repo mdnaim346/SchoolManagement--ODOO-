@@ -1,36 +1,32 @@
-# SchoolManagement--ODOO-
+# 🏫 School Management App (Odoo 17)
 
-
-
-# 🏫 School Management App
-
-A full-featured **School Management System** designed to simplify and automate the administration of schools — including student management, teacher assignments, classes, attendance, and more.
+A complete **School Management System** built with **Odoo 17**, designed to help manage students, teachers, classes, subjects, attendance, and exams — all in one platform.
 
 ---
 
-## 🚀 Features (Planned & Implemented)
+## 🚀 Features (Modules Overview)
 
 | Status | Feature | Description |
 |:------:|:--------|:-------------|
-| ✅ | Dashboard | Overview of total students, teachers, and performance metrics |
-| 🕓 | Student Management | Add, edit, and delete student records with class and section info |
-| 🕓 | Teacher Management | Manage teacher profiles, subjects, and class assignments |
-| ⏳ | Attendance Module | Daily attendance tracking for students and teachers |
-| ⏳ | Class & Subject Management | Create classes, subjects, and assign teachers |
-| ⏳ | Exam & Results | Input marks, calculate GPA, and generate report cards |
-| ⏳ | Authentication | Login and role-based access for admin, teachers, and students |
+| ✅ | Student Management | Add, update, and manage student profiles |
+| ✅ | Teacher Management | Manage teacher records, classes, and subjects |
+| 🕓 | Class Management | Create and assign classes and sections |
+| 🕓 | Attendance System | Daily attendance tracking for students and teachers |
+| ⏳ | Exam Management | Manage exams, marks, and results |
+| ⏳ | Fees Management | Handle student payments and invoices |
+| ⏳ | Reports | Generate attendance, result, and fee reports |
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer | Technology |
-|:------|:------------|
-| Frontend | Angular 17 / React (TBD) |
-| Backend | .NET Core 8 / Django / Node.js (TBD) |
-| Database | PostgreSQL / MySQL |
-| UI Framework | Bootstrap 5 / TailwindCSS |
-| Hosting | GitHub Pages / Vercel / Render / Railway (Later) |
+| Component | Technology |
+|:-----------|:------------|
+| Framework | **Odoo 17 Community** |
+| Backend | Python 3.10+ |
+| Database | PostgreSQL 15+ |
+| Frontend | OWL / XML / JS (QWeb templates) |
+| OS | Ubuntu / Linux preferred |
 
 ---
 
@@ -39,4 +35,3 @@ A full-featured **School Management System** designed to simplify and automate t
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/<mdnaim346>/SchoolManagementApp.git
-cd SchoolManagementApp
