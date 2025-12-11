@@ -11,6 +11,8 @@
 ![Pull Requests](https://img.shields.io/github/issues-pr/mdnaim346/SchoolManagementApp)
 ![Stars](https://img.shields.io/github/stars/mdnaim346/SchoolManagementApp)
 ![Forks](https://img.shields.io/github/forks/mdnaim346/SchoolManagementApp)
+![Build Status](https://github.com/mdnaim346/SchoolManagementApp/actions/workflows/main.yml/badge.svg)
+
 
 # 🏫 School Management App (Odoo 17)
 

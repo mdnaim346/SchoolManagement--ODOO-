@@ -18,7 +18,11 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'views/student.xml',
+        'views/course.xml',
+         'views/student.xml',
+        'views/teacher.xml',
+        'views/menu.xml',
+       
     ],
     'application': True,
     'installable': True,

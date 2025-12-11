@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Root Menu -->
+    <menuitem id="menu_school_root"
+              name="School Management"
+              sequence="10"/>
+
+    <!-- Student Menu -->
+    <menuitem id="menu_school_students"
+              name="Students"
+              parent="menu_school_root"
+              action="action_student_list"
+              sequence="20"/>
+
+    <!-- Teacher Menu -->
+    <menuitem id="menu_school_teachers"
+              name="Teachers"
+              parent="menu_school_root"
+              action="action_teacher_list"
+              sequence="30"/>
+
+             <menuitem id="menu_school_courses"
+          name="Courses"
+          parent="menu_school_root"
+          action="action_course_list"
+          sequence="31"/>
+    <!-- Extra Menus Example (optional, uncomment if needed)
+    <menuitem id="menu_school_classes"
+              name="Classes"
+              parent="menu_school_root"
+              sequence="40"/>
+
+    <menuitem id="menu_school_results"
+              name="Results"
+              parent="menu_school_root"
+              sequence="50"/>
+    -->
+
+</odoo>
