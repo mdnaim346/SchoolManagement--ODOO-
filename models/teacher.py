@@ -6,5 +6,5 @@ class SchoolStudent(models.Model):
 
     name = fields.Char(string="Name", required=True)
     employee_id =fields.Integer(string='Employee Id' , required=True)
-    course = fields.Many2one('school.course', string='courses')
+    course = fields.Many2many('school.course', string='courses')
     
